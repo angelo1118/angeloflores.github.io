@@ -1,8 +1,0 @@
-{% extends index.html %}
-
-<h1>{{ project.name }}</h1>
-<img src="{{ project.image.url }}" alt="{{ project.name }}">
-<p>{{ project.description }}</p>
-{% if project.link %}
-  <a href="{{ project.link }}" target="_blank">Visit Project</a>
-{% endif %}
